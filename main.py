@@ -903,7 +903,7 @@ def main():
     email = fake.email()
                                                             # global username
                                                             # username = fake.user_name()
-    for i in range(input("Введи степень агрессивности")):
+    for i in range(int(input("Введи степень агрессивности:\n"))):
 
         for func in [kyivstar,
                     vodafone,
